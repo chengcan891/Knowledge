@@ -4,3 +4,4 @@
 
 - 2026-10-31 建库：AGENTS.md、raw/2026-10.md、wiki/index.md
 - 2026-10-31 新增 wiki/加密磁盘上的Grep陷阱.md，更新索引
+- 2026-10-31 新增 wiki/GitHub连接与权限排查.md，索引加"工具与环境"分区
