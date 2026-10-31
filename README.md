@@ -31,6 +31,7 @@
 | `wiki/项目/` | 某个项目为什么这么定 | AI |
 | `wiki/技术判断/` | 踩过的坑，以及下次怎么绕开 | AI |
 | `wiki/工具与环境/` | 换电脑时要重配的东西 | AI |
+| `wiki/职业/` | 绩效、晋升、面试能说出口的东西 | AI |
 | `wiki/index.md` | 所有页面的索引 | AI |
 | `AGENTS.md` | 给 AI 的规则，改它等于改 AI 的行为 | 我 |
 | `技能库检查.md` | 技能库有没有被推上密文，含游标 | AI |
@@ -44,4 +45,6 @@
 
 ## 隔一阵要确认一次
 
-技能库的定时密文检查，GitHub 会在仓库连续 60 天没提交后**自动停用，且不发通知**。每两三个月去 https://github.com/chengcan891/AI/actions 看一眼 `text-guard` 还在不在。
+**技能库的定时密文检查会被自动停用。** GitHub 在仓库连续 60 天没有提交后关闭定时任务，且不发通知。每两三个月去 https://github.com/chengcan891/AI/actions 看一眼 `text-guard` 还在不在。
+
+**AI 访问这个仓库用的 token 到 2026-11-30 过期。** 过期后的表现是：AI 说读不到仓库，或者报 404——注意不是 403，会让人以为是仓库被删了。碰上这种情况先去 https://github.com/settings/personal-access-tokens 重新生成一个（Repository access 选 All repositories，Contents 给 Read and write），再把新值交给 AI 更新配置。token 过期不会提前通知，所以到期前几天最好主动换掉。
